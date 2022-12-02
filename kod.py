@@ -1,8 +1,12 @@
-def calc_stat(listened):
-    summ = 0
-    for i in listened:
-        summ += i
-    mins = summ//60
-    return (f'Вы прослушали {len(listened)}'
-    f' песен общей продолжительностью {mins} минут.')
-print(calc_stat([189, 148, 210, 144, 174, 158, 163, 189, 227, 198]))
+a = [1, 2, 3]
+b = a
+# значения списка b?
+
+a[1] = 10
+# значения списка b?
+
+b[0] = 20
+# значения списка a?
+
+a = [5, 6]
+print(b)
